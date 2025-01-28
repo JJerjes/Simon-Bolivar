@@ -207,6 +207,30 @@ td:first-of-type {
    .navbar.open {
     display: flex;
    }
+   
+    .tableOne {
+    border-collapse: separate;
+    border: 2px solid gray;
+    margin: 0 auto;
+    }
 
+    th, td {
+    font-size: small;
+    padding: 5px 15px;
+    border: 1px solid gray;
+    }
 
+    th {
+    background-color: #005bac;
+    color: white;
+    }
+
+    td:last-of-type {
+    font-weight: bold;
+
+    }
+
+    td:first-of-type {
+    text-align: left;
+    }
 }
