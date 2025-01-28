@@ -34,8 +34,8 @@ header h1 {
     display: none;
     cursor: pointer;
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 5px;
+    right: 10px;
     z-index: 100;
 }
 
@@ -45,6 +45,7 @@ header h1 {
 
 #menuButton::before {
     content: '☰';
+    color: white;
 }
 
 #menuButton.open::before {
@@ -183,7 +184,7 @@ td:first-of-type {
     text-align: left;
 }
 /* Responsividad */
-@media (max-width: 600px) {
+@media (max-width: 400px) {
    #menuButton {
     display: block;
    }
@@ -217,7 +218,7 @@ td:first-of-type {
     section {
         padding: 10px;
         margin: 10px auto;
-        width: 90%;
+        width: 97%;
         background-color: white;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
