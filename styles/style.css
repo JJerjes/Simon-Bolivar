@@ -45,6 +45,7 @@ header h1 {
 
 #menuButton::before {
     content: '☰';
+    color: white;
 }
 
 #menuButton.open::before {
