@@ -83,7 +83,7 @@ header h1 {
 /* Estilo de las secciones */
 section {
     padding: 20px;
-    margin: 20px auto;
+    margin: 10px auto;
     width: 80%;
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -183,7 +183,7 @@ td:first-of-type {
     text-align: left;
 }
 /* Responsividad */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
    #menuButton {
     display: block;
    }
@@ -211,12 +211,21 @@ td:first-of-type {
     .tableOne {
     border-collapse: separate;
     border: 2px solid gray;
-    margin: 0 auto;
+    margin: 5px;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px auto;
+        width: 90%;
+        background-color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
     }
 
     th, td {
     font-size: small;
-    padding: 0 10px;
+    padding: 5px 15px;
     border: 1px solid gray;
     }
 
@@ -233,4 +242,5 @@ td:first-of-type {
     td:first-of-type {
     text-align: left;
     }
+
 }
