@@ -184,7 +184,7 @@ td:first-of-type {
     text-align: left;
 }
 /* Responsividad */
-@media (max-width: 400px) {
+@media (max-width: 600px) {
    #menuButton {
     display: block;
    }
@@ -218,7 +218,7 @@ td:first-of-type {
     section {
         padding: 10px;
         margin: 10px auto;
-        width: 97%;
+        width: 100%;
         background-color: white;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
