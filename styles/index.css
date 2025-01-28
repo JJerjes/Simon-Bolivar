@@ -63,7 +63,7 @@ header h1 {
 .navbar a {
     text-decoration: none;
     color: white;
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     padding: 10px;
     display: block;
@@ -72,9 +72,8 @@ header h1 {
     position: relative;
     transition: color 0.5s ease;
 }
-.navbar a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+.navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar a:hover {
@@ -97,9 +96,8 @@ section h2 {
     margin-bottom: 10px;
 }
 
-.lideres ul {
-    padding: 0 20px;
-    font-weight: 500;
+.lideres, #enlaces, #introduccion h2  {
+    text-align: center;
 }
 
 #enlaces ul {
@@ -159,6 +157,31 @@ a:hover {
     color: #f5a623; /* Dorado para el hover */
 }
 
+.tableOne {
+    border-collapse: separate;
+    border: 2px solid gray;
+    margin: 0 auto;
+}
+
+th, td {
+    font-size: small;
+    padding: 5px 15px;
+    border: 1px solid gray;
+}
+
+th {
+    background-color: #005bac;
+    color: white;
+}
+
+td:last-of-type {
+    font-weight: bold;
+
+}
+
+td:first-of-type {
+    text-align: left;
+}
 /* Responsividad */
 @media (max-width: 500px) {
    #menuButton {
