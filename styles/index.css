@@ -111,7 +111,15 @@ section p {
     color: #555; /* Gris oscuro para el texto */
 }
 
+.maps {
+    text-align: center;
+}
 
+iframe {
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+
+}
 
 /* Grid Layout para las actividades */
 .activity-grid {
@@ -244,4 +252,10 @@ td:first-of-type {
     text-align: left;
     }
 
+    .maps {
+        text-align: center;
+    }
+    iframe {
+        width: 350px;
+    }
 }
