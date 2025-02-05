@@ -1,21 +1,19 @@
-/* Reset de márgenes y rellenos */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo básico para el body */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* Un tono suave de gris */
-    color: #333; /* Color de texto oscuro para buena legibilidad */
+    font-family: Montserrat;
+    background-color: #f5f5f5; 
+    color: #333;
     line-height: 1.6;
 }
 
-/* Estilo para el header */
 header.title {
-    background-color: #1e73be; /* Azul claro */
+    background-color: #1e73be;
     color: white;
     padding: 20px;
     text-align: center;
@@ -54,7 +52,7 @@ header h1 {
 
 /* Barra de navegación */
 .navbar {
-    background-color: #005bac; /* Azul más fuerte */
+    background-color: #005bac;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -78,10 +76,9 @@ header h1 {
 }
 
 .navbar a:hover {
-    color: #f5a623; /* Color dorado para el hover */
+    color: #f5a623; 
 }
 
-/* Estilo de las secciones */
 section {
     padding: 20px;
     margin: 10px auto;
@@ -92,7 +89,7 @@ section {
 }
 
 section h2 {
-    color: #1e73be; /* Azul claro */
+    color: #1e73be; 
     font-size: 2.2rem;
     margin-bottom: 10px;
 }
@@ -108,7 +105,7 @@ section h2 {
 section p {
     font-size: 1.1rem;
     line-height: 1.5;
-    color: #555; /* Gris oscuro para el texto */
+    color: #555; 
 }
 
 .maps {
@@ -121,7 +118,6 @@ iframe {
 
 }
 
-/* Grid Layout para las actividades */
 .activity-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -154,7 +150,6 @@ iframe {
     color: #666;
 }
 
-/* Enlace para regresar al menú principal */
 a {
     display: inline-block;
     color: #1e73be;
@@ -163,7 +158,7 @@ a {
 }
 
 a:hover {
-    color: #f5a623; /* Dorado para el hover */
+    color: #f5a623; 
 }
 
 .tableOne {
@@ -191,13 +186,14 @@ td:last-of-type {
 td:first-of-type {
     text-align: left;
 }
+
 /* Responsividad */
 @media (max-width: 600px) {
    #menuButton {
     display: block;
    }
    .navbar  {
-    background-color: #005bac; /* Azul más fuerte */
+    background-color: #005bac;
     text-align: center;
     display: flex;
     flex-direction: column;
